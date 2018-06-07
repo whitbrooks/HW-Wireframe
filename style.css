@@ -4,29 +4,73 @@ Body {
     background: #777;
     width: 960px;
     font-size: 18px;
-    
 }
 
-
-.class1 {
+header {
     background: #ebebeb;
     padding: 25px;
 }
 
-
-Article {
-    color: #ebebeb;
-    background: #777;
-}
-
-
-.class2 {
-    color: #777;
+Nav{
     background: #ebebeb;
+    padding: 25px;
 }
-
 
 section {
+    float: left;
+    background: #ebebeb;
     width: 495px;
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+}
+
+aside {
+    float: right;
+    background: #ebebeb;
+    height: 250px;
+    width: 390px;
+    text-align: center;
+    padding: 15px;
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+    height: 200px;
+    padding: 10px;
+    width: 370;
+}
+
+h1{
+    float:left;
+    color: #777;
+    background: #ebebeb;
+    padding: 15px;
+    font-size: 18px;
+    width: 455;
+    height: 18px
+}
+
+p{
+    float: left;
+    color: #777;
+    background: #ebebeb;
+    padding: 15px;
+    font-size: 18px;
+    width: 455;
+    height:18px
+}
+
+footer {
+    background: #ebebeb;
+    padding: 25px;
+    clear: both;
+}
+
+.clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
 }
 
