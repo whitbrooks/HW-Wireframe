@@ -20,7 +20,7 @@ section {
     float: left;
     background: #ebebeb;
     width: 495px;
-    height: 250px;
+    height: 230px;
     text-align: center;
     padding: 15px;
 }
@@ -28,44 +28,56 @@ section {
 aside {
     float: right;
     background: #ebebeb;
-    height: 250px;
+    height: 230px;
     width: 390px;
     text-align: center;
     padding: 15px;
+    margin: 5px,5px,5px,0px;
 }
 
 article {
     color: #ebebeb;
     background: #777;
-    height: 200px;
-    padding: 10px;
-    width: 370;
+    height: 160px;
+    padding: 15px;
+    width: 465px;
+    margin: 15px 0px 0px 0px;
+
 }
 
 h1{
-    float:left;
-    color: #777;
-    background: #ebebeb;
-    padding: 15px;
-    font-size: 18px;
-    width: 455;
-    height: 18px
-}
-
-p{
+    clear: both;
     float: left;
     color: #777;
     background: #ebebeb;
-    padding: 15px;
+    padding: 12px;
     font-size: 18px;
-    width: 455;
-    height:18px
+    width: 420px;
+    height: 18px;
+    margin: 10px;
+}
+
+p{
+    clear: both;    
+    float: left;
+    color: #777;
+    background: #ebebeb;
+    padding: 12px;
+    font-size: 18px;
+    width: 420px;
+    height:18px;
+    margin: 10px;
+}
+
+br{
+    clear:both;
 }
 
 footer {
     background: #ebebeb;
     padding: 25px;
     clear: both;
+    margin-top: 20px;
 }
 
 .clearfix::after {
